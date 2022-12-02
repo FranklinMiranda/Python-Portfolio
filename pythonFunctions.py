@@ -1,4 +1,9 @@
-print("Hello World")
+# Python Functions
+# Authorship: Franklin Miranda
+# Date: 12/2/2022
+# This file covers Python Functions
 
-x = 4; 
-print(x)
+def myFunc():
+    print("This is a Python Function!")
+
+myFunc()
