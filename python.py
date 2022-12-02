@@ -38,6 +38,17 @@ print(A)
 var = 1
 _var = 12
 var1 = 123
-var_1 = 1234
+Var_1 = 1234
 
-print(var, _var, var1, var_1)
+print(var, _var, var1, Var_1)
+
+# Camel Case, Pascal Case, and Snake case can be used to make names more readable
+camelCase = "Camel Case"
+PascalCase = "Pascal Case"
+snake_case = "Snake Case"
+
+print(camelCase, PascalCase, snake_case)
+
+# One Line multivariable declaration 
+e, f, g = 1, 2, 3
+print(e,f,g)
