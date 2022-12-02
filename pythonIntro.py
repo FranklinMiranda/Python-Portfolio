@@ -54,5 +54,11 @@ e, f, g = 1, 2, 3
 print(e,f,g)
 
 # One value assigned to multiple variables
-x = y = z = "Orange"
+x = y = z = "Red"
+print(x,y,z)
+
+# Unpacking a collection of values from a list
+fruits = ["apples", "bananas", "cherries"]
+x, y, z = fruits
+print(fruits)
 print(x,y,z)
