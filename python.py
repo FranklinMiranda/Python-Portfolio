@@ -34,4 +34,10 @@ print(type(a))
 A = str(40)
 print(A)
 
-# Variable Name 
+# Variable Naming Rules 
+var = 1
+_var = 12
+var1 = 123
+var_1 = 1234
+
+print(var, _var, var1, var_1)
