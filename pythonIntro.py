@@ -52,3 +52,7 @@ print(camelCase, PascalCase, snake_case)
 # One Line multivariable declaration 
 e, f, g = 1, 2, 3
 print(e,f,g)
+
+# One value assigned to multiple variables
+x = y = z = "Orange"
+print(x,y,z)
