@@ -33,3 +33,10 @@ if 'dictionary' in txts:
     print(True)
 else: 
     print(False)
+
+# Strings can be sliced using Index, Last Index position is not included, negative indexes can be used to start slicing from the end of the string
+a = "Apple"
+print(a[2:4])
+print(a[:4])
+print(a[2:])
+print(a[-4:])
