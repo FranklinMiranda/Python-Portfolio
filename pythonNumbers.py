@@ -16,3 +16,9 @@ print(y)
 # Type Conversion can be used with int(), float(), and complex() to convert to different Number Data Types
 a = int(y)
 print(a)
+
+
+# Python does not have a Random Function but has a built-in module that can be imported and used with randrange() method 
+import random
+
+print(random.randrange(1,10))
