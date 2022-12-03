@@ -18,3 +18,12 @@ print(string[1], string[10])
 # Strings can be Looped through using for Loops 
 for x in string:
     print(x)
+
+# String Length can be accessed using len()
+print(len(string))
+
+# Keyword in can be used to check if characters are present in strings
+txt = "The best things in life are free!"
+if "free" in txt: 
+    print("Yes Free is in the txt!")
+
