@@ -12,3 +12,7 @@ print(x,y,z)
 # Float Data Number Type can use e to indicate power of 10
 y = 1e2
 print(y)
+
+# Type Conversion can be used with int(), float(), and complex() to convert to different Number Data Types
+a = int(y)
+print(a)
