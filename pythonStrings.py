@@ -27,3 +27,9 @@ txt = "The best things in life are free!"
 if "free" in txt: 
     print("Yes Free is in the txt!")
 
+# Keyword not in can be used to check if characters are not present in strings
+txts = "This sentence does not contain the word dictionary!"
+if 'dictionary' in txts: 
+    print(True)
+else: 
+    print(False)
