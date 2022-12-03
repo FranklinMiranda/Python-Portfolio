@@ -19,3 +19,8 @@ print(multiDataList)
 # List Items can be accessed using Index
 print(myList[0])
 
+# Negative Indexing can be used to access a list from the end backwards
+print(myList[-1])
+
+# A range of indexes on a list can be accessed using a start and end range for indexes
+print(myList[1:])
