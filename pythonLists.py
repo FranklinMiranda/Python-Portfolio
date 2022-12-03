@@ -15,3 +15,7 @@ print(boolList)
 
 multiDataList = ["Apples", 1, True]
 print(multiDataList)
+
+# List Items can be accessed using Index
+print(myList[0])
+
