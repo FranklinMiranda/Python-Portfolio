@@ -47,3 +47,16 @@ else:
     print(False)
 
 # Python Logical Operators
+x = 20 
+y = 30
+
+if x > 10 and y > 15:
+    print(True)
+else: 
+    print(False)
+
+
+if x > 30 or y > 15:
+    print(True)
+else: 
+    print(False)
