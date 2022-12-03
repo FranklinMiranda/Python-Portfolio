@@ -40,3 +40,13 @@ print(a[2:4])
 print(a[:4])
 print(a[2:])
 print(a[-4:])
+
+# Modifying Strings
+a = " Hello World"
+print(a.upper())
+print(a.lower())
+print(a.strip())
+print(a.replace("H", "J"))
+print(a.split(" "))
+
+# String concatenation can be used to combine two strings using the + operator
