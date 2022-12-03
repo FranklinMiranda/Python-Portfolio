@@ -6,6 +6,7 @@
 x = 5
 y = 6
 
+# Python Arithmetic Operators
 print(x + y)
 print(x - y)
 print(x * y)
@@ -13,3 +14,36 @@ print(x / y)
 print(x % y)
 print(x ** y)
 print(x // y)
+
+#Python Comparison Operators
+if x == y: 
+    print(True)
+else: 
+    print(False)
+
+if x != y: 
+    print(True)
+else: 
+    print(False)
+
+if x > y: 
+    print(True)
+else: 
+    print(False)
+
+if x < y: 
+    print(True)
+else: 
+    print(False)
+
+if x >= y: 
+    print(True)
+else: 
+    print(False)
+
+if x <= y: 
+    print(True)
+else: 
+    print(False)
+
+# Python Logical Operators
