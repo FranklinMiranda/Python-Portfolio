@@ -50,3 +50,14 @@ print(a.replace("H", "J"))
 print(a.split(" "))
 
 # String concatenation can be used to combine two strings using the + operator
+x = "Hello"
+y = "World"
+z = x + " " + y
+print(z)
+
+# String Format method can be used to combine strings and numbers
+age = 24
+txt = "My name is Franklin, and I am {}"
+print(txt.format(age))
+
+# Escape characters can be used to 
