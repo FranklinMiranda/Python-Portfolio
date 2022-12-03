@@ -3,3 +3,4 @@
 # Date: 12/3/2022
 # This file lists and explores the Python Lists Data Type
 
+# Lists are created using square brackets []
