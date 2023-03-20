@@ -69,12 +69,14 @@ print(x,y,z)
 print(x + z)
 
 # Global Variables, unlike variables declared inside a function, can be accessed globally
-globalVariable = "Global Variable"
+
 
 def myFunc():
-    print(globalVariable)
+    global x
+    x = 'globalvariable'
 
 myFunc()
 
+print(x)
 # Variables declared inside function can only be accessed locally
 
